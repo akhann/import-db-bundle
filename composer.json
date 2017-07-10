@@ -1,0 +1,19 @@
+{
+    "name": "akhann/import-db-bundle",
+    "description": "Reload development database from production",
+    "type": "symfony-bundle",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Sydney Moutia",
+            "email": "sydney@akhann.com"
+        }
+    ],
+    "require": {
+        "php": "^5.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": { "Akhann\\Bundle\\ImportDbBundle\\": "" },
+        "exclude-from-classmap": ["Tests/"]
+    }
+}
