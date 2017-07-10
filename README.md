@@ -1,5 +1,10 @@
 # import-db-bundle
 
+## Install
+```bash
+composer require --dev akhann/import-db-bundle:dev-master
+```
+
 ## Config Example
 
 ```yaml
@@ -20,4 +25,9 @@ akhann_import_db:
         mysql_username: %database_user%
         mysql_password: %database_password%
         tmp_dir: "/tmp"
+```
+
+## Usage
+```bash
+app/console akhann:database:import --force
 ```
